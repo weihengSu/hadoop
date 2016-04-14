@@ -24,10 +24,10 @@ for line in sys.stdin:
 sorted_buildings = sorted(worstBuildings.items(), key=operator.itemgetter(1))
 #i = 0
 
-#for tuple in sorted_buildings:
-#    print '%s\t%s' % (tuple[0],tuple[1])
+for tuple in sorted_buildings:
+    print '%s\t%s' % (tuple[0],tuple[1])
 #    print(tuple) 
-print(sorted_buildings)
+#print(sorted_buildings)
 
 
 
